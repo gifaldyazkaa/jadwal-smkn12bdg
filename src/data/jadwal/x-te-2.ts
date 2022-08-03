@@ -47,19 +47,19 @@ const jadwal = [
             },
             {
                 jam: '13.15 - 14.45',
-                nama: 'Bahasa Jepang',
+                nama: 'B. Jepang',
                 kode_guru: '1.94',
                 kode_ruangan: 'G2.01',
             },
             {
                 jam: '14.45 - 15.30',
-                nama: '',
+                nama: '-',
                 kode_guru: '',
                 kode_ruangan: '',
             },
             {
                 jam: '15.30 - 17.45',
-                nama: 'Pend. Agama BP',
+                nama: 'PAI BP',
                 kode_guru: '1.54',
                 kode_ruangan: 'O2.01',
             },
