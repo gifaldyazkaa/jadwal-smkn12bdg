@@ -3,7 +3,7 @@ import { Routes } from '../types/routes';
 import NProgress from 'nprogress';
 
 import Home from '../pages/Home.vue';
-import About from '../pages/About.vue';
+import X_TE_2 from '../pages/class/x-te-2.vue';
 
 const routes: Routes = [
     {
@@ -12,9 +12,9 @@ const routes: Routes = [
         component: Home,
     },
     {
-        name: 'About',
-        path: '/about',
-        component: About,
+        name: 'X-TE_2',
+        path: '/class/x-te-2',
+        component: X_TE_2,
     },
 ];
 

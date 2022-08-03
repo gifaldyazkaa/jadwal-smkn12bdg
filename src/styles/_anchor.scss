@@ -1,0 +1,11 @@
+a {
+    color: #42b883 !important;
+    text-decoration: none;
+    &:hover {
+        color: #2d7c58;
+        text-decoration: underline;
+    }
+    &:active {
+        color: #2d7c58;
+    }
+}

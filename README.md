@@ -1,3 +1,3 @@
-# personal-vue-template
+# Jadwal SMKN 12 Bandung
 
-:cookie: | My personal starter for Vue.js: TS, SASS, Vue Router, Parcel, NProgress, Prettier, Git Hooks
+Jadwal pelajaran di SMKN 12 Bandung.
