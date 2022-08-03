@@ -1,7 +1,7 @@
 const kelas = [
     {
-        name: 'X TE 2',
-        teknik: 'Teknik Elektronika',
+        name: '⚡ X Teknik Elektronika 2',
+        teknik: 'TE 2',
         tingkat: 'X',
         route_name: 'X-TE_2',
     },

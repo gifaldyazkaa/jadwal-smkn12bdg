@@ -1,9 +1,9 @@
 <template>
     <Container>
         <section class="home">
-            <h1>Jadwal Pelajaran SMKN 12 Bandung</h1>
+            <h1>📚 Jadwal Pelajaran SMKN 12 Bandung</h1>
             <div class="separator"></div>
-            <p>Silahkan pilih kelas yang dituju.</p>
+            <p>➡️ Silahkan pilih kelas yang dituju.</p>
             <div class="list">
                 <ul>
                     <router-link v-for="kls in kelas" :to="{ name: kls.route_name }">
@@ -12,11 +12,11 @@
                 </ul>
             </div>
             <p class="msg">
-                [?] Kelasmu tidak terdaftar di list?
+                🙋 Kelasmu tidak terdaftar di list?
                 <a href="mailto:me@falcxxdev.ml">Request pendaftaran kelas ke saya sekarang!</a> Jangan lupa untuk
                 mengirimkan foto jadwal yang jelas!
             </p>
-            <p class="msg">[*] Untuk list & kode guru menyusul.</p>
+            <p class="msg">📢 Untuk list & kode guru menyusul.</p>
         </section>
     </Container>
 </template>

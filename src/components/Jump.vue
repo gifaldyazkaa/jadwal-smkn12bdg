@@ -1,6 +1,6 @@
 <template>
     <div class="jump">
-        <h3>Pilih hari</h3>
+        <h3>📆 Pilih hari</h3>
         <p>Pilih hari yang dituju</p>
         <ul>
             <a href="#Senin"><li>Senin</li></a>

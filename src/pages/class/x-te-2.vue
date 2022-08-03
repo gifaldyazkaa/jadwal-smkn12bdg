@@ -1,18 +1,18 @@
 <template>
     <Container>
         <router-link to="/">👈 Kembali ke Home</router-link>
-        <h1>X Teknik Elektronika 2</h1>
-        <p>Jadwal pelajaran kelas X TE 2</p>
+        <h1>⚡ X Teknik Elektronika 2</h1>
+        <p>📚 Jadwal pelajaran kelas X TE 2</p>
         <Jump />
         <div class="table" v-for="jdwal in jadwal">
-            <h2 :id="jdwal.hari">{{ jdwal.hari }}</h2>
-            <p>Total pelajaran: {{ jdwal.total_mapel }} pelajaran</p>
+            <h2 :id="jdwal.hari">📆 {{ jdwal.hari }}</h2>
+            <p>📚 Total pelajaran: {{ jdwal.total_mapel }} pelajaran</p>
             <table>
                 <tr>
-                    <th>Jam</th>
-                    <th>Pelajaran</th>
-                    <th>Kode Guru</th>
-                    <th>Kode Ruangan</th>
+                    <th>🕑 Jam</th>
+                    <th>📚 Pelajaran</th>
+                    <th>🧑‍🏫 Kode Guru</th>
+                    <th>🧖 Kode Ruangan</th>
                 </tr>
                 <tr v-for="pel in jdwal.mapel">
                     <td>{{ pel.jam }}</td>
@@ -22,8 +22,8 @@
                 </tr>
             </table>
         </div>
-        <p class="msg">[?] ISOMA : Istirahat, Sholat, Makan.</p>
-        <p class="msg">[?] Jadwal akan di-update ketika ada perubahan.</p>
+        <p class="msg">🙋 ISOMA : Istirahat, Sholat, Makan.</p>
+        <p class="msg">📢 Jadwal akan di-update ketika ada perubahan.</p>
     </Container>
 </template>
 
