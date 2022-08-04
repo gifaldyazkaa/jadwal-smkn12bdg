@@ -4,6 +4,7 @@
         <h1>⚡ X Teknik Elektronika 2</h1>
         <p>📚 Jadwal pelajaran kelas X TE 2</p>
         <Jump />
+        <CurrentTime />
         <div class="table" v-for="jdwal in jadwal">
             <h2 :id="jdwal.hari">📆 {{ jdwal.hari }}</h2>
             <p>📚 Total pelajaran: {{ jdwal.total_mapel }} pelajaran</p>
@@ -28,13 +29,14 @@
 </template>
 
 <script lang="ts">
+import CurrentTime from '../../components/CurrentTime.vue';
 import Container from '../../components/Container.vue';
 import Jump from '../../components/Jump.vue';
 import jadwal from '../../data/jadwal/x-te-2';
 
 export default {
     name: 'X-TE_2',
-    components: { Container, Jump },
+    components: { Container, CurrentTime, Jump },
     data() {
         return {
             jadwal,

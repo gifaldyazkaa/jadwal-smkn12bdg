@@ -1,6 +1,6 @@
 <template>
     <footer>
-        <p>Created with ❤️ and Vue.js by <b>Gifaldy Azka</b> from <b>X-TE_2</b> &copy; 2022-Present.</p>
+        <p>Created with ❤️ and Vue.js by <b>Gifaldy Azka</b> from <b>X-TE_2</b></p>
     </footer>
 </template>
 

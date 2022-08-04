@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Lexend&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code&display=swap');
 @import './styles/nprogress';
 @import './styles/webkit';
 
@@ -12,5 +13,9 @@ body {
     p,
     ul {
         color: #fff;
+    }
+    code {
+        font-family: 'Fira Code', monospace;
+        color: #42b883;
     }
 }
