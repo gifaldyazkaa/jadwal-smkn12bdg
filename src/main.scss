@@ -1,21 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Lexend&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Fira+Code&display=swap');
+@import './styles/font';
+@import './styles/variable';
+@import './styles/reset';
 @import './styles/nprogress';
 @import './styles/webkit';
-
-body {
-    background: #35495e;
-    font-family: 'Lexend', sans-serif;
-    scroll-behavior: smooth;
-    h1,
-    h2,
-    h3,
-    p,
-    ul {
-        color: #fff;
-    }
-    code {
-        font-family: 'Fira Code', monospace;
-        color: #42b883;
-    }
-}

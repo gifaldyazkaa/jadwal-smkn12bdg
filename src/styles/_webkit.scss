@@ -6,7 +6,7 @@
     background-color: transparent;
 }
 ::-webkit-scrollbar-thumb {
-    background-color: #42b883;
+    background-color: $green;
     border-radius: 15px;
 }
 ::-webkit-scrollbar-thumb:hover {
@@ -18,11 +18,11 @@
 
 // Selection
 ::-moz-selection {
-    color: #35495e;
-    background: #42b883;
+    color: $dark-blue;
+    background: $green;
 }
 
 ::selection {
-    color: #35495e;
-    background: #42b883;
+    color: $dark-blue;
+    background: $green;
 }

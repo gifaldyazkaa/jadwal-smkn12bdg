@@ -1,0 +1,16 @@
+body {
+    background: $dark-blue;
+    font-family: $lexend;
+    scroll-behavior: smooth;
+    h1,
+    h2,
+    h3,
+    p,
+    ul {
+        color: $text-color;
+    }
+    code {
+        font-family: $fira-code;
+        color: $green;
+    }
+}
