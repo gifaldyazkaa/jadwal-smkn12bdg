@@ -11,9 +11,11 @@ export default {
 </script>
 
 <style lang="scss">
+@import '../styles/variable';
+
 footer {
     text-align: center;
     font-size: 13px;
-    border-top: 1px solid #fff;
+    border-top: 1px solid $text-color;
 }
 </style>

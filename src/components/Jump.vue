@@ -19,10 +19,6 @@ export default {
 };
 </script>
 
-<style lang="scss" scoped>
-ul {
-    li {
-        margin: 0;
-    }
-}
+<style lang="scss">
+@import '../styles/anchor';
 </style>

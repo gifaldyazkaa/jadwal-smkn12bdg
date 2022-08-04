@@ -51,10 +51,12 @@ export default {
 </script>
 
 <style lang="scss">
+@import '../styles/variable';
+
 .time {
     &__content {
         transition: all 0.2s ease-in-out;
-        text-decoration: underline #42b883 3px;
+        text-decoration: underline $green 3px;
     }
     &__content:hover {
         text-decoration: underline #328e65 4px;

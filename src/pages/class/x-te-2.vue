@@ -47,24 +47,19 @@ export default {
 
 <style lang="scss">
 @import '../../styles/anchor';
+@import '../../styles/variable';
 
 table {
-    font-family: 'Lexend', sans-serif;
+    font-family: $lexend;
     border-collapse: collapse;
     width: 100%;
-    color: #fff;
-    background-color: rgba(#6485a9, 0.4);
+    color: $text-color;
+    background: $table-bg;
     border-radius: 15px;
     td,
     th {
-        // border: rgba(#dddddd, 0.2) solid 8px;
         text-align: left;
         padding: 8px;
-        tr {
-            &:nth-child(even) {
-                background-color: #dddddd;
-            }
-        }
     }
 }
 .msg {
