@@ -67,7 +67,7 @@ const jadwal = [
     },
     {
         hari: 'Selasa',
-        total_mapel: '3',
+        total_mapel: '1',
         mapel: [
             {
                 jam: '07.00 - 08.30',
@@ -221,7 +221,7 @@ const jadwal = [
             },
             {
                 jam: '11.45 - 13.00',
-                nama: 'Jumatan / Keputrian',
+                nama: 'ISOMA',
                 kode_guru: '',
                 kode_ruangan: '',
             },
@@ -238,13 +238,13 @@ const jadwal = [
         total_mapel: '0',
         mapel: [
             {
-                jam: '06.30 - 09.00',
+                jam: '04.30 - 09.00',
                 nama: 'Bintal',
                 kode_guru: '',
                 kode_ruangan: '',
             },
             {
-                jam: '???',
+                jam: '09.00-??.??',
                 nama: 'Ekskul',
                 kode_guru: '',
                 kode_ruangan: '',
